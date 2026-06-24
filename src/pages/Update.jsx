@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-const API = "http://localhost/react-api/api";
+const API = "http://localhost:8000/api";
 
 function Update() {
     const { id } = useParams();
